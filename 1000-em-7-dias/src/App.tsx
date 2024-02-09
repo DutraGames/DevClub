@@ -2,11 +2,16 @@ import logoHeader from "./assets/logo-header.png";
 import logo from "./assets/logo.png";
 import video from "./assets/video.mp4";
 import mario from "./assets/mario.png";
-import luigi from "./assets/luigi.png";
 import whatsapp from "./assets/whatsapp.png";
 import * as Dialog from "@radix-ui/react-dialog";
 
 export default function App() {
+  const handleWhatsapp = () => {
+    window.open(
+      "https://api.whatsapp.com/send?phone=5511999999999&text=Ol%C3%A1%20irm%C3%A3os%20bross"
+    );
+  };
+
   return (
     <>
       <Dialog.Root>
@@ -94,7 +99,7 @@ export default function App() {
             />
           </div>
 
-          <button type="button">
+          <button type="button" onClick={handleWhatsapp}>
             <img
               src={whatsapp}
               alt="Whatsapp"
