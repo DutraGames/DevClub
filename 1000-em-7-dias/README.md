@@ -1,5 +1,7 @@
 # Projeto 1000 em 7 dias
 
+![mario](https://github.com/DutraGames/DevClub/assets/69097449/44e3a5d0-1244-4f32-b5af-29e6e5caae01)
+
 ## Introdução
 
 Esse foi um projeto realizado na formação FullStack do [DevClub](https://rodolfomori.com.br/devclub/). Orientado pelo professor [Rodolfo Mori](https://www.linkedin.com/in/rodolfomori/).
