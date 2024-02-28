@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Login() {
   return (
     <main className="flex items-center flex-col">
-      <div className="mt-12 bg-white blur-sm w-72 h-52 -z-10 absolute opacity-10 " />
+      <div className="mt-12 bg-white blur-md w-72 h-52 -z-10 absolute opacity-10 " />
       <Image
         className="mt-12"
         src={"/login-img.svg"}
